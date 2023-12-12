@@ -1,0 +1,4 @@
+[MAIN]
+disable=
+    empty-docstring,
+    missing-docstring,

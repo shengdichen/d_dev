@@ -1,0 +1,18 @@
+{
+    "workbench.colorTheme": "Catppuccin Mocha",
+
+    "vscode-neovim.neovimExecutablePaths.linux": "nvim",
+    "vscode-neovim.neovimInitVimPaths.linux": "/home/main/.config/nvim_vc/init.lua",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+
+    "editor.fontFamily": "Shevska",
+    "editor.fontSize": 18,
+    "editor.fontWeight": "normal",
+    "editor.fontLigatures": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.location": "hidden",
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": true
+}
