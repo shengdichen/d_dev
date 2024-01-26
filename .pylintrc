@@ -1,4 +1,18 @@
 [MAIN]
 disable=
+    locally-disabled,
+    fixme,
+    import-error,
+
     empty-docstring,
     missing-docstring,
+
+    too-many-instance-attributes,
+    too-few-public-methods,
+    too-many-arguments,
+
+    logging-fstring-interpolation,
+    invalid-name,
+
+[Design]
+min-public-methods = 1
