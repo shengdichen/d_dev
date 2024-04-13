@@ -1,0 +1,5 @@
+# allow optional parameters
+# REF:
+#   https://www.shellcheck.net/wiki/SC2119
+#   https://www.shellcheck.net/wiki/SC2120
+disable=SC2119,SC2120
