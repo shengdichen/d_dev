@@ -1,5 +1,12 @@
 {
     "workbench.colorTheme": "Catppuccin Mocha",
+    "catppuccin.colorOverrides": {
+        "mocha": {
+            "base": "#000000",
+            "mantle": "#000000",
+            "crust": "#2b272f"
+        }
+    },
 
     "vscode-neovim.neovimExecutablePaths.linux": "nvim",
     "vscode-neovim.neovimInitVimPaths.linux": "/home/main/.config/nvim_vc/init.lua",
@@ -14,5 +21,21 @@
     "window.menuBarVisibility": "toggle",
     "workbench.activityBar.location": "hidden",
     "editor.minimap.enabled": false,
-    "workbench.statusBar.visible": true
+    "workbench.statusBar.visible": true,
+
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "isort.args":["--profile", "black"],
+
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
