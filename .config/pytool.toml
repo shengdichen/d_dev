@@ -1,0 +1,2 @@
+[tool.rope]
+prefer_module_from_imports = true
