@@ -1,0 +1,31 @@
+# REF:
+#   https://github.com/textlint/textlint/blob/master/docs/configuring.md
+#   https://github.com/textlint/textlint/wiki/Collection-of-textlint-rule
+
+{
+  # REF:
+  #   https://github.com/textlint/textlint/wiki/Collection-of-textlint-rule#rule-list
+  "rules": {
+      # REF:
+      #   https://github.com/textlint-rule/textlint-rule-write-good?tab=readme-ov-file#options
+      "write-good": { "severity": "warning", "passive": false },
+      # REF:
+      #   https://github.com/textlint-rule/textlint-rule-alex?tab=readme-ov-file#options
+      "alex": { "severity": "warning" },
+      "max-number-of-lines": { "severity": "warning", "max": 999 },
+      "date-weekday-mismatch": true,
+      "no-zero-width-spaces": true,
+      "doubled-spaces": true,
+    },
+
+  # REF:
+  #  https://github.com/textlint/textlint/wiki/Collection-of-textlint-rule#plugin-list
+  plugins: [
+      # REF:
+      #   https://github.com/textlint/textlint-plugin-html
+      "html",
+      # REF:
+      #   https://github.com/textlint/textlint-plugin-latex2e
+      "latex2e",
+    ],
+}
